@@ -1,4 +1,4 @@
-# Burns 3b  
+# Burns 3b (Vassal 3.6.2) 
 * reorder 'can rotate' trait to fix movement
   
 * double digit condition tracking tokens
@@ -11,17 +11,28 @@
 * RNG button
 
 
-# WIP
+# Burns 3c (Vassal 3.6.3)
 
-* Clocks added, backtick/ctrl+backtick shortcut for control
+* Clocks added, backtick/ctrl+backtick shortcut for controls
 
 * Change description of 'lower focus' for clarity
 
 * Move condition menu items into status subfolder
 
-* Added marker cycling shortcuts to menus
+* Added marker cycling shortcuts to menus (A/Ctrl+A)
 
 * Added menu dividers
+
+* Fixed 'enslaved spirit' Kill menu item location
+
+* Updated movement trait ordering for 3.6.3
+
+
+# WIP
+
+
+
+
 
 
 # Future projects
