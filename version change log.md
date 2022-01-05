@@ -49,3 +49,15 @@ Model creation pipeline
 * model images maintained in independent folder - matched to model entry by name/art version filename
 	* Easy point of colaboration - create new model art and upload to shared folder
 	
+Map thumbnails
+* Algorithm to screenshot all the maps
+* Integrate reference into in-module help
+
+Enforcer brawl extension
+
+New user reference guide/video
+	1. How to download and setup
+	2. Pick a map
+	3. Build your crew
+	4. Find your markers
+	5-??. Health, movement, conditions, auras, markers, shortcuts, tokens, counters, save/load games, card and deck manipulation
