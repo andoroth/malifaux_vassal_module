@@ -17,7 +17,7 @@
 
 * Change description of 'lower focus' for clarity
 
-* Move condition menu items into status subfolder
+* Moved condition menu items into status subfolder
 
 * Added marker cycling shortcuts to menus (A/Ctrl+A)
 
@@ -27,6 +27,15 @@
 
 * Updated movement trait ordering for 3.6.3
 
+
+# Burns 3d (Vassal 3.6.3)
+* Updated wound counts for Moleman, Rami, Swine-cursed, Drachen, Terracota
+
+* Moved Fuhatsu to enforcers
+
+* Added new maps: Fortified Village, Main Street, The Floor Is Lava
+
+* Updated map: Forest Edge
 
 # WIP
 
