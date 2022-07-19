@@ -1,0 +1,73 @@
+
+baseDims
+0
+270
+540
+810
+1080
+
+xOffset
+122
+
+yOffset
+122
+
+Center:
+662
+
+Quadrant points:
+392
+932
+
+Corner points
+320,  662  W
+262,  262  NW
+662,  320  N
+1062, 262  NE
+1004, 662  E
+1062, 1062 SE
+662,  1004 S
+262,  1062 SW
+
+Center points
+524, 662 W
+565, 565 NW
+662, 524 N
+759, 565 NE
+800, 662 E
+759, 759 SE
+662, 800 S
+565, 759 SW
+
+4" + 15mm horizontal:
++/- 138
+
+4" + 15mm diagonal:
++/- 97
+
+6" + 15mm horizontal:
++/- 198
+
+6" + 15mm diagonal:
++/- 140
+
+
+Covert ops:
+	Center markers
+	Edge markers
+	
+Guard the Stash:
+	Center markers
+	Quadrant markers
+	
+	
+Create layouts
+	place markers
+	Replace piece images
+Create new strat menu
+Create new scheme menu
+	Resize scheme chit back to correct size
+	Regenerate all scheme chits
+	Update chits
+
+Publish

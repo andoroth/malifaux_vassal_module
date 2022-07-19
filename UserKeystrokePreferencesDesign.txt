@@ -1,0 +1,32 @@
+
+
+
+
+KeyBuffer is the central clearinghouse for keystrokes being sent to the "currently selected pieces". It's called by ForwardToKeyBuffer which is the actual listener.
+
+For the other stuff (just general hotkeys for the module) the GameModule is the overall mediator, and it has methods "addKeyStrokeListener" and "removeKeyStrokeListener" for any individual components (for example a Map window that has its own toolbar and hotkeys) to sign themselves up to have keystrokes sent.
+
+
+
+ForwardToKeyBuffer.process()
+
+Overall though, I think this is definitely feasible and will be a very worthwhile addition, with minimal compatibility implications. I think you are looking at 3 main steps:
+
+1. Record Key Mapping in preference tab (Global/Local/Import/Export). KeyMappingListConfigurer
+2. Link into Vassal user KeyStroke input to use preferences to map keystrokes. KeyBuffer and GameModule central KeyListener.
+3. Modify the MenuDisplayer and AbstractToolbarItems to display the mapped Key in menu items and tooltip. Possibly via new call to KeyNamer?
+
+
+
+We probably also want to be able to import/export mapping definitions to/from text files as these will be shared around.
+
+
+
+Take a .... populated by the Configurer
+	When entries are added/removed, update internal map accordingly
+	Any remapping (even implicit) will be contained within this map
+	
+Whenever a USER_KEYSTROKE is entered, check it against the KEY_MAP - if it returns nothing, continue on
+If it hits an entry, swap in its VALUE from the map, then continue on as normal
+
+This swap needs to occur at the highest of processing levels, before any listeners can be affected or any other logic triggered
