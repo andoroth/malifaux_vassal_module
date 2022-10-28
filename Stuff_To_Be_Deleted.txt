@@ -1,0 +1,42 @@
+Assets to be deleted in a test module.
+
+In Surfaces:
+Lava [3]
+Large Crater [1]
+Soulstone Crater [1-4]
+Lake [3]
+Snow Pond
+
+Topography:
+Grass Hill [1]
+Grass Hill [2]
+Grass Hill [7]
+Grass Hill Large [1]
+Grass Hill Large [2]
+Grass cliff [1-3]
+Snow Hill 3-7
+
+Scatter:
+Barracade [1-2] (these can be made with the smaller components as separate objects, better for destructibles)
+Snow rocks 3
+
+Structures:
+Latigo Adobe Mansion
+
+Flora:Delete some of the plural ones (can manually create with ssmaller bunches)
+(basic) Trees [1-13]
+(exotic) Trees [1-3]
+Undergrowth [all] (these are redundant with the set forests for undergrowth)
+Dense Foliage [all]
+(fir trees) Pines 3
+(set forests) Forests 1-6
+(set forests) Undergrowth 1, 4, 5, 6, 7, 8, 9 
+
+Interiors (Necropolis):
+Temple Open
+Temple Pillars
+Temple Medallion
+Temple Checkered Open
+Temple Checkered Pillars
+Temple Checkered Medallion
+Anti-chamber (all six)
